@@ -5,3 +5,9 @@
    justify-content: center;
    margin-bottom: 10rem;
 }
+
+.header-category{
+   display: flex;
+   justify-content: center;
+   margin: 0 10rem 10rem 0;
+}

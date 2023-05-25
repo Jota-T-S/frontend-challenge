@@ -86,8 +86,12 @@ export const MemeCard = ({ id }) => {
                 >
                   X
                 </button>
+                <span style={{ color: "white" }}>{meme.likeCount}</span>
               </div>
             )}
+            <span style={{ color: "white", fontSize: "0.8rem" }}>
+              {meme.likeCount}
+            </span>
           </div>
         </div>
       )}
