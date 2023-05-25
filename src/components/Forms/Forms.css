@@ -66,3 +66,13 @@
    font-weight: 200;
    margin-bottom: 2rem;
 }
+.register-link{
+   text-align: center;
+   color: #FFFFFF;
+   margin-bottom: 10rem;
+}
+.register-link span a{
+   text-align: center;
+   color: #C5FD7B;
+   margin-bottom: 10rem;
+}

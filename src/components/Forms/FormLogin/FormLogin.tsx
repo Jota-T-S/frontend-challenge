@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import useUser from "../../../hooks/useUser";
 import "../Forms.css";
+import { NavLink } from "react-router-dom";
 
 type Inputs = {
   email: string;
@@ -57,6 +58,13 @@ export const FormLogin = () => {
 
         <button type="submit">Iniciar sesión</button>
       </form>
+      <p className="register-link">
+        You do not have an account?{" "}
+        <span>
+          {" "}
+          <NavLink to={"/register"}>register here</NavLink>
+        </span>
+      </p>
     </div>
   );
 };
