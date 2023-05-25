@@ -1,0 +1,25 @@
+.container-users__title h2{
+   display: flex;
+   justify-content:end;
+   margin-right: 5rem;
+   color: #D897F5;
+   font-size: 7rem;
+   font-weight: 400;
+}
+
+.container-users__items{
+   width: 100vw;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin: 5rem 0 10rem 0;
+}
+
+.container-users__subtitle h2{
+   margin-left: 5rem;
+   color: #C5FD7B;
+   font-size: 7rem;
+   font-weight: 200;
+   margin-bottom: 2rem;
+}

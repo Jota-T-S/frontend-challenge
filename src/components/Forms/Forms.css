@@ -1,0 +1,68 @@
+.content-form form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 5rem 0 10rem 0;
+}
+.content-form__title h1{
+   display: flex;
+   justify-content:end;
+   margin-right: 5rem;
+   color: #D897F5;
+   font-size: 7rem;
+   font-weight: 400;
+}
+.form-group input{
+   background-color: #161616 !important;
+   color: #C5FD7B;
+   padding:1rem 1rem;
+   border: 1px solid #C5FD7B;
+   border-radius: 10rem;
+   margin: 1rem;
+}
+.form-group select{
+   background-color: #161616 !important;
+   color: #C5FD7B;
+   padding:1rem 1rem;
+   border: 1px solid #C5FD7B;
+   border-radius: 10rem;
+   margin: 1rem;
+}
+.content-form form button{
+   font-weight: 600;
+   border:2px solid #D897F5;
+   background-color: #161616;
+   color: #D897F5;
+   padding:1rem 1rem;
+   margin: 1rem;
+   border-radius: 10rem;
+}
+.content-form form button:hover{
+   border:2px solid #D897F5;
+   background-color: #161616;
+   color: #D897F5;
+   border: 2px solid #D897F5;
+   background-color: #D897F5;
+   color: #161616;
+   cursor: pointer;
+}
+.content-form form span{
+   color: rgb(251, 144, 144);
+   font-size: 0.7rem;
+   margin-left: 7rem;
+   margin-top: -0.5rem;
+}
+.form-error{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.content-form__subtitle h2{
+   margin-left: 5rem;
+   color: #C5FD7B;
+   font-size: 7rem;
+   font-weight: 200;
+   margin-bottom: 2rem;
+}

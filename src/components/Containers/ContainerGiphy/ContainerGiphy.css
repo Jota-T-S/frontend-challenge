@@ -1,0 +1,40 @@
+.container-giphy{
+   width: 100vw;
+   background-color: #C5FD7B;
+   /* background-color: black; */
+   padding: 2rem 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.container-giphy h2{
+   font-size: 5rem;
+   text-align: center;
+   padding-bottom: 2rem;
+}
+.container-giphy h2 span{
+   font-weight: 200;
+   font-size: 10rem;
+}
+.container-giphy__items{
+   max-width: 80vw;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+.container-giphy__item{
+   margin: 1rem;
+}
+.container-giphy__item__img{
+   width: 15rem;
+   border-radius: 1rem;
+   -webkit-border-radius: 1rem;
+   -moz-border-radius: 1rem;
+   -ms-border-radius: 1rem;
+   -o-border-radius: 1rem;
+}
+.container-giphy__item__title{
+   max-width: 11rem;
+}

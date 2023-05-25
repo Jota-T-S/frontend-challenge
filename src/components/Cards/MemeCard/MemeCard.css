@@ -1,0 +1,50 @@
+.meme-card{
+  max-width: 15rem;
+  margin:0 1rem
+}
+.meme-card__img{
+   width: 15rem;
+   border-radius: 1rem;
+}
+.meme-card h3{
+   color: #C5FD7B;
+   font-weight: 400;
+}
+.meme-card p{
+   color: #FFFFFF;
+   font-weight: 200;
+   font-size: 0.8rem;
+}
+.meme-card__buttons{
+   display: flex;
+   /* justify-content: end; */
+   align-items: center;
+   /* margin: 1rem 0.5rem 0 0.5rem; */
+}
+.meme-card__delete{
+   background-color: #161616;
+   color: #C5FD7B;
+   border: 2px solid #C5FD7B;
+   padding: 0.3rem 0.5rem;
+   border-radius: 1rem;
+}
+.meme-card__delete:hover{
+   background-color: #fd7b7b;
+   color: #161616;
+   border: 2px solid #fd7b7b;
+   cursor: pointer;
+}
+.meme-card__like{
+   background-color: #161616;
+   border: none;
+   cursor: pointer;
+}
+.meme-card__like img{
+   width: 1.8rem;
+   margin-top: 0.2rem;
+   margin-right: 0.9rem;
+}
+.meme-card__buttons-like{
+   display: flex;
+   margin-top: 1rem;
+}

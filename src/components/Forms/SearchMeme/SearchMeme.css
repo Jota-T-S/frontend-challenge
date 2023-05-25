@@ -1,0 +1,28 @@
+.container-search input, .container-search input:focus-visible{
+   background-color: #161616 !important;
+   color: #C5FD7B;
+   padding:0.5rem 1rem;
+   border: 1px solid #C5FD7B;
+   border-radius: 1rem;
+}
+.search-result{
+   display: flex;
+   /* align-items: center; */
+   width: 30rem;
+   margin: 2rem;
+}
+.search-result img{
+   width: 9rem;
+   margin: 0 1rem 0 0;
+   border-radius: 1rem;
+}
+.search-result__info h3{
+   color: #C5FD7B;
+   font-size: 1.2rem;
+   font-weight: 400;
+}
+.search-result__info {
+   color: #FFFFFF;
+   font-size: 0.8rem;
+   font-weight: 200;
+}

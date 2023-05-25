@@ -1,0 +1,7 @@
+.container-memes__cards{
+   max-width: 80vw;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-bottom: 10rem;
+}
